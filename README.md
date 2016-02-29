@@ -1,6 +1,7 @@
 # Ecligrid
 Flexible Mobile First Grid System Based on Flexbox.
 
+
 ##Features
 - Easy to get started and use, yet feature-rich thanks to powerful Flexbox
 - Supports both X & Y axis
@@ -21,4 +22,4 @@ Ecligrid comes with utility classes (offsets, paddings, etc.) and basic CSS rese
 These can be manually omitted, thus significantly reducing the file size.
 
 ##Contribution
-Issues and pull requests are very welcome.
+If you find an issue or just have a proposal, feel free to post it. Pull requests are also welcome.
