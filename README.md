@@ -1,5 +1,5 @@
 # Ecligrid
-Flexible Mobile First Grid System Based on Flexbox
+Flexible Mobile First Grid System Based on Flexbox.
 
 ##Features
 - Easy to get started and use, yet feature-rich thanks to powerful Flexbox
