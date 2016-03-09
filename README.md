@@ -8,8 +8,7 @@ Flexible Mobile First Grid System Based on Flexbox.
 - Mobile first approach
 - Responsive by default
 - Plenty of utility classes
-- Only 6.5KB minified & gzipped
-- It's magic!
+- **Only 6.5KB minified & gzipped**
 
 ##Basic Usage
 Coming soon.
