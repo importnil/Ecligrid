@@ -1,5 +1,5 @@
 /*!
- * Ecligrid v.1.1
+ * Ecligrid v.1.1.1
  * Flexible Mobile First Grid System Based on Flexbox
  *
  * Copyright (c) 2016 Vadim Yermolin
@@ -1571,30 +1571,35 @@ blockquote:before, blockquote:after, q:before, q:after {
 .ecl.cross-start {
 	-webkit-align-items: flex-start;
 	-ms-flex-align: start;
+	-ms-grid-row-align: flex-start;
 	align-items: flex-start;
 }
 
 .ecl.cross-center {
 	-webkit-align-items: center;
 	-ms-flex-align: center;
+	-ms-grid-row-align: center;
 	align-items: center;
 }
 
 .ecl.cross-end {
 	-webkit-align-items: flex-end;
 	-ms-flex-align: end;
+	-ms-grid-row-align: flex-end;
 	align-items: flex-end;
 }
 
 .ecl.cross-stretch {
 	-webkit-align-items: stretch;
 	-ms-flex-align: stretch;
+	-ms-grid-row-align: stretch;
 	align-items: stretch;
 }
 
 .ecl.cross-baseline {
 	-webkit-align-items: baseline;
 	-ms-flex-align: baseline;
+	-ms-grid-row-align: baseline;
 	align-items: baseline;
 }
 
@@ -1668,30 +1673,35 @@ blockquote:before, blockquote:after, q:before, q:after {
 	.ecl.cross-start-ss {
 		-webkit-align-items: flex-start;
 		-ms-flex-align: start;
+		-ms-grid-row-align: flex-start;
 		align-items: flex-start;
 	}
 
 	.ecl.cross-center-ss {
 		-webkit-align-items: center;
 		-ms-flex-align: center;
+		-ms-grid-row-align: center;
 		align-items: center;
 	}
 
 	.ecl.cross-end-ss {
 		-webkit-align-items: flex-end;
 		-ms-flex-align: end;
+		-ms-grid-row-align: flex-end;
 		align-items: flex-end;
 	}
 
 	.ecl.cross-stretch-ss {
 		-webkit-align-items: stretch;
 		-ms-flex-align: stretch;
+		-ms-grid-row-align: stretch;
 		align-items: stretch;
 	}
 
 	.ecl.cross-baseline-ss {
 		-webkit-align-items: baseline;
 		-ms-flex-align: baseline;
+		-ms-grid-row-align: baseline;
 		align-items: baseline;
 	}
 
@@ -1766,30 +1776,35 @@ blockquote:before, blockquote:after, q:before, q:after {
 	.ecl.cross-start-ms {
 		-webkit-align-items: flex-start;
 		-ms-flex-align: start;
+		-ms-grid-row-align: flex-start;
 		align-items: flex-start;
 	}
 
 	.ecl.cross-center-ms {
 		-webkit-align-items: center;
 		-ms-flex-align: center;
+		-ms-grid-row-align: center;
 		align-items: center;
 	}
 
 	.ecl.cross-end-ms {
 		-webkit-align-items: flex-end;
 		-ms-flex-align: end;
+		-ms-grid-row-align: flex-end;
 		align-items: flex-end;
 	}
 
 	.ecl.cross-stretch-ms {
 		-webkit-align-items: stretch;
 		-ms-flex-align: stretch;
+		-ms-grid-row-align: stretch;
 		align-items: stretch;
 	}
 
 	.ecl.cross-baseline-ms {
 		-webkit-align-items: baseline;
 		-ms-flex-align: baseline;
+		-ms-grid-row-align: baseline;
 		align-items: baseline;
 	}
 
@@ -1864,30 +1879,35 @@ blockquote:before, blockquote:after, q:before, q:after {
 	.ecl.cross-start-ls {
 		-webkit-align-items: flex-start;
 		-ms-flex-align: start;
+		-ms-grid-row-align: flex-start;
 		align-items: flex-start;
 	}
 
 	.ecl.cross-center-ls {
 		-webkit-align-items: center;
 		-ms-flex-align: center;
+		-ms-grid-row-align: center;
 		align-items: center;
 	}
 
 	.ecl.cross-end-ls {
 		-webkit-align-items: flex-end;
 		-ms-flex-align: end;
+		-ms-grid-row-align: flex-end;
 		align-items: flex-end;
 	}
 
 	.ecl.cross-stretch-ls {
 		-webkit-align-items: stretch;
 		-ms-flex-align: stretch;
+		-ms-grid-row-align: stretch;
 		align-items: stretch;
 	}
 
 	.ecl.cross-baseline-ls {
 		-webkit-align-items: baseline;
 		-ms-flex-align: baseline;
+		-ms-grid-row-align: baseline;
 		align-items: baseline;
 	}
 
@@ -1962,30 +1982,35 @@ blockquote:before, blockquote:after, q:before, q:after {
 	.ecl.cross-start-xls {
 		-webkit-align-items: flex-start;
 		-ms-flex-align: start;
+		-ms-grid-row-align: flex-start;
 		align-items: flex-start;
 	}
 
 	.ecl.cross-center-xls {
 		-webkit-align-items: center;
 		-ms-flex-align: center;
+		-ms-grid-row-align: center;
 		align-items: center;
 	}
 
 	.ecl.cross-end-xls {
 		-webkit-align-items: flex-end;
 		-ms-flex-align: end;
+		-ms-grid-row-align: flex-end;
 		align-items: flex-end;
 	}
 
 	.ecl.cross-stretch-xls {
 		-webkit-align-items: stretch;
 		-ms-flex-align: stretch;
+		-ms-grid-row-align: stretch;
 		align-items: stretch;
 	}
 
 	.ecl.cross-baseline-xls {
 		-webkit-align-items: baseline;
 		-ms-flex-align: baseline;
+		-ms-grid-row-align: baseline;
 		align-items: baseline;
 	}
 
@@ -4211,6 +4236,7 @@ blockquote:before, blockquote:after, q:before, q:after {
 	padding: 0 15px;
 	margin-left: auto;
 	margin-right: auto;
+	width: 100%;
 }
 
 .ecl.full-width {
@@ -4243,7 +4269,7 @@ blockquote:before, blockquote:after, q:before, q:after {
 	}
 
 	.ecl.container {
-		max-width: 34em;
+		width: 34em;
 	}
 
 	.ecl.full-width-ss {
@@ -4277,7 +4303,7 @@ blockquote:before, blockquote:after, q:before, q:after {
 	}
 
 	.ecl.container {
-		max-width: 48em;
+		width: 48em;
 	}
 
 	.ecl.full-width-ms {
@@ -4311,7 +4337,7 @@ blockquote:before, blockquote:after, q:before, q:after {
 	}
 
 	.ecl.container {
-		max-width: 62em;
+		width: 62em;
 	}
 
 	.ecl.full-width-ls {
@@ -4345,7 +4371,7 @@ blockquote:before, blockquote:after, q:before, q:after {
 	}
 
 	.ecl.container {
-		max-width: 75em;
+		width: 75em;
 	}
 
 	.ecl.full-width-xls {
