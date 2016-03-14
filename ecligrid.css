@@ -4234,8 +4234,6 @@ blockquote:before, blockquote:after, q:before, q:after {
 
 .ecl.container {
 	padding: 0 15px;
-	margin-left: auto;
-	margin-right: auto;
 	width: 100%;
 }
 
