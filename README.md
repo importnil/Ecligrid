@@ -7,7 +7,7 @@ At the time of writing this, global support of the flex property (as stated by [
 
 [List of known IE 10-11 issues](http://caniuse.com/#search=flex).
 
-##Features
+## Features
 - Easy to get started and use, yet feature-rich thanks to powerful Flexbox
 - Supports both X & Y axis
 - Mobile first approach
@@ -15,15 +15,15 @@ At the time of writing this, global support of the flex property (as stated by [
 - Plenty of utility classes
 - **Only 6.5KB minified & gzipped**
 
-##Basic Usage
+## Basic Usage
 Coming soon.
 
-##Documentation
+## Documentation
 Coming soon.
 
-##Notes
+## Notes
 Ecligrid comes with utility classes (offsets, paddings, etc.) and basic CSS reset.
 These can be manually omitted, thus significantly reducing the file size.
 
-##Contribution
+## Contribution
 If you find an issue or just have a proposal, feel free to post it. Pull requests are also welcome.
